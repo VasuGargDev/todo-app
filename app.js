@@ -10,7 +10,7 @@ addToDoButton.addEventListener('click', function(){
 
     todoContainer.appendChild(todoItem);
 
-    //create paragraph(p) element and add id = paragraph-styling
+    //create paragraph(p) and id = paragraph-styling
     const paragraph = document.createElement('p')
     paragraph.id = 'paragraph-styling';
     paragraph.innerText=inputField.value;
@@ -22,17 +22,6 @@ addToDoButton.addEventListener('click', function(){
     })
 
     
-    //edit button and add id= edit-button
-    const editButton = document.createElement('button');
-    editButton.id='edit-button';
-
-    const editImage = document.createElement('img');
-    editImage.src = 'edit.svg';
-    editButton.appendChild(editImage);
-    todoItem.appendChild(editButton);
-    //click event callback method for edit button..........................pending
-
-
 
     //delete button and add id= delete-button
     const deleteButton = document.createElement('button');
@@ -50,15 +39,19 @@ addToDoButton.addEventListener('click', function(){
 
 
 
+    //edit button and id= edit-button
+    const editButton = document.createElement('button');
+    editButton.id='edit-button';
+
+    const editImage = document.createElement('img');
+    editImage.src = 'edit.svg';
+    editButton.appendChild(editImage);
+    todoItem.appendChild(editButton);
+    //click event callback method for edit button..........................pending
+
+
 
     inputField.value=""
 
-    // paragraph.addEventListener('click', function(){
-    //     paragraph.style.textDecoration = "line-through";
-    // })
-    
-    // paragraph.addEventListener('dblclick', function(){
-    //     todoContainer.removeChild(paragraph);
-    // })
 
 })
