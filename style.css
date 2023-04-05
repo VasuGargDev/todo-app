@@ -4,12 +4,6 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* h1, .container {
-    
-    display: flex;
-    justify-content: center;
-    
-} */
 
 .container {
     width: 360px;
@@ -32,12 +26,27 @@ html, body {
     vertical-align: middle;
 }
 
-.to-dos {
-    margin-top: 25px;
+
+#todoContainer {
+    margin-top: 50px;
 }
 
-.paragraph-styling {
-    margin: 0;
-    cursor: pointer;
-    font-size: 20px;
+.todo-Item {
+    display: flex;
+    margin-bottom: 5px;
 }
+
+
+#paragraph-styling {
+    width: 100%;
+    margin: 0;
+    cursor: crosshair;
+    font-size: 25px;
+}
+
+#edit-button, #delete-button{
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
