@@ -1,6 +1,6 @@
 # todo-app
 
-## App hosted [**here**](https://642d7ceb106c023b033b0cdb--quiet-torte-050664.netlify.app/)
+## Todo app (v1) hosted [**here**](https://642d7ceb106c023b033b0cdb--quiet-torte-050664.netlify.app/)
 
 
 ## Initial version:-
