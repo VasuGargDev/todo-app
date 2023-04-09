@@ -1,3 +1,5 @@
+import "./style.css";
+
 let inputField = document.getElementById('inputField');
 let addToDoButton = document.getElementById("addToDo");
 let todoContainer = document.getElementById("todoContainer");
